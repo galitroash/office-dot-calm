@@ -17,7 +17,6 @@ router.get('/:category', (req, res) => {
     })}
 });
 
-
 router.post('/addNew', (req, res) => {
     // TODO : VALIDATION
     const product = new productModel(req.body);
